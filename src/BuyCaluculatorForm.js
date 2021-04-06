@@ -64,6 +64,8 @@ function currToDigit(str) {
 export default function BuyCaluculatorForm() {
   const classes = useStyles();
 
+  const isDev = (process.env.NODE_ENV !== "production")
+
   const initialState = {
     occupation: '95',
     rent: '1800',
@@ -112,13 +114,6 @@ export default function BuyCaluculatorForm() {
       id: 'total_loan',
       value: total_loan,
     });
-
-
-
-    for (const [key, value] of Object.entries(initialState)) {
-
-      console.log(key, value);
-    }
   }
   const handleChange = event => {
     setFormData({
@@ -290,9 +285,12 @@ export default function BuyCaluculatorForm() {
         disabled
       />
       <ul>
-        {Object.entries(propertyModel).map(([id, value]) => (
-          <li key={id}><strong>{id}</strong>:{value}</li>
-        ))}
+        {isDev ? (
+            Object.entries(propertyModel).map(([id, value]) => (
+            <li key={id}><strong>{id}</strong>:{value}</li>
+          ))
+        )  : ("")
+        }
       </ul>
       <BasicTable propertyModel={propertyModel}/>
     </form>
