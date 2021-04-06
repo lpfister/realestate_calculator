@@ -1,5 +1,5 @@
 {
-  "name": "create-react-app",
+  "name": "realestate-calculator",
   "version": "4.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
     "@material-ui/core": "latest",
     "@unicef/material-ui-currency-textfield": "^0.8.6",
     "clsx": "latest",
-    "numeral": "^2.0.6",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
