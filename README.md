@@ -19,4 +19,4 @@ or:
 
 ## Here you can find the online calculator
 
-[Online Calculator](https://lpfister.github.io/realestate-calculator).
+[Online Calculator](https://lpfister.github.io/realestate_calculator).
