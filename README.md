@@ -1,12 +1,11 @@
-# Create React App example
+# Investment calculator to buy a property in Switzerland
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+Deploy latest version to github pages:
 
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app
-cd create-react-app
+npm run deploy
 ```
 
 Install it and run:
@@ -18,8 +17,6 @@ npm start
 
 or:
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/create-react-app)
+## Here you can find the online calculator
 
-## The idea behind the example
-
-This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app).
+[Online Calculator](https://lpfister.github.io/realestate-calculator).

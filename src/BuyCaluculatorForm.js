@@ -324,14 +324,14 @@ function BasicTable(props) {
   var net_profit = gross_profit - income_tax - wealth_tax;
 
   const rows = [
-    createData('Loan Repayment', loan_repayment, 6.0, 24, 4.0),
-    createData('Body corporate fees', body_corporate, 9.0, 37, 4.3),
-    createData('Internal renovation yearly saving', propertyModel.renovation_cost_yearly, 16.0, 24, 6.0),
-    createData('Gross income',gross_income, 3.7, 67, 4.3),
-    createData('Gross profit', gross_profit, 16.0, 49, 3.9),
-    createData('Net profit after tax', net_profit, 16.0, 49, 3.9),
-    createData('Gross profit on cash', roundAccurately(gross_profit/propertyModel.total_cash*100,2), 16.0, 49, 3.9),
-    createData('Net profit on cash', roundAccurately(net_profit/propertyModel.total_cash*100,2), 16.0, 49, 3.9),
+    createData('Loan Repayment', loan_repayment, 0, 0, 0),
+    createData('Body corporate fees', body_corporate, 0, 0, 0),
+    createData('Internal renovation yearly saving', propertyModel.renovation_cost_yearly, 0, 0, 0),
+    createData('Gross income',gross_income, 0, 0, 0),
+    createData('Gross profit', gross_profit, 0, 0, 0),
+    createData('Net profit after tax', net_profit, 0, 0, 0),
+    createData('Gross profit on cash', roundAccurately(gross_profit/propertyModel.total_cash*100,2), 0, 0, 0),
+    createData('Net profit on cash', roundAccurately(net_profit/propertyModel.total_cash*100,2), 0, 0, 0),
   ];
   
   return (
