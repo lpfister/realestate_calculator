@@ -6,27 +6,14 @@ import Link from '@material-ui/core/Link';
 import ProTip from './ProTip';
 import BuyCaluculatorForm from './BuyCaluculatorForm';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
 
 export default function App() {
   return (
     <Container maxWidth="xl">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Create React App v4-beta example
+          Swiss Online Realestate Investment Calculator
         </Typography>
-        <ProTip />
         <Copyright />
       </Box>
       <Box>
