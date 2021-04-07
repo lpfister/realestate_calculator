@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/realestate-calculator/static/js/main.c1b689dd.chunk.js",
-    "main.js.map": "/realestate-calculator/static/js/main.c1b689dd.chunk.js.map",
+    "main.js": "/realestate-calculator/static/js/main.6133d36a.chunk.js",
+    "main.js.map": "/realestate-calculator/static/js/main.6133d36a.chunk.js.map",
     "runtime-main.js": "/realestate-calculator/static/js/runtime-main.8a6d5e2d.js",
     "runtime-main.js.map": "/realestate-calculator/static/js/runtime-main.8a6d5e2d.js.map",
     "static/js/2.82befa63.chunk.js": "/realestate-calculator/static/js/2.82befa63.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.8a6d5e2d.js",
     "static/js/2.82befa63.chunk.js",
-    "static/js/main.c1b689dd.chunk.js"
+    "static/js/main.6133d36a.chunk.js"
   ]
 }
