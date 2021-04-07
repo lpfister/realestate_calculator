@@ -57,7 +57,7 @@ function currToDigit(str) {
     return 0;
   }
 
-  return parseFloat(str.replace('\'', ''))
+  return parseFloat(str.replace(/'/g,""))
 }
 
 
@@ -176,6 +176,17 @@ export default function BuyCaluculatorForm() {
           helperText="Typically around 0.6% of value, that includes everything except internal renovation and electricity"
           InputProps={{
             endAdornment: <InputAdornment position="end">%</InputAdornment>,
+          }}
+          />
+          <TextField
+          id="renovation_cost_yearly"
+          label="Renovation Cost Yearly"
+          type="number"
+          value={propertyModel.renovation_cost_yearly}
+          onChange={handleChange}
+          helperText="Cost for internal renovation of the flat per year 900 CHF will cover paiting every 10 years + light renovation of kitchen every 25"
+          InputProps={{
+            endAdornment: <InputAdornment position="end">CHF</InputAdornment>,
           }}
         />
       </div>
