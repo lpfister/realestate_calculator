@@ -12,7 +12,6 @@ export default function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           Swiss Online Realestate Investment Calculator
         </Typography>
-        <Copyright />
       </Box>
       <Box>
        <BuyCaluculatorForm />
