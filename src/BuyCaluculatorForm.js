@@ -329,7 +329,7 @@ function BasicTable(props) {
     createData('Internal renovation yearly saving', propertyModel.renovation_cost_yearly, 0, 0, 0),
     createData('Gross income',gross_income, 0, 0, 0),
     createData('Gross profit', gross_profit, 0, 0, 0),
-    createData('Net profit after tax', net_profit, 0, 0, 0),
+    createData('Net profit after tax', roundAccurately(net_profit,2), 0, 0, 0),
     createData('Gross profit on cash', roundAccurately(gross_profit/propertyModel.total_cash*100,2), 0, 0, 0),
     createData('Net profit on cash', roundAccurately(net_profit/propertyModel.total_cash*100,2), 0, 0, 0),
   ];
